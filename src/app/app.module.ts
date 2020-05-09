@@ -13,6 +13,7 @@ import { ShopingEditComponent } from './shopping-list/shoping-edit/shoping-edit.
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { DropdownDirective } from './Shared/dropdown.directive';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { environment } from '../environments/environment';
     RecipeItemComponent,
     ShoppingListComponent,
     ShopingEditComponent,
+    DropdownDirective,
     
   ],
   imports: [

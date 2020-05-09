@@ -7,8 +7,21 @@
     </div>
 
     <h1>{{recipe.name}}</h1>
-    <div class="row">
-        <button class="btn btn-primary"> Manage Recipes <span class="caret"></span></button>
+    <div class="row"  >
+      
+            <ul class="btn btn-primary " style="list-style: none;" >
+                <li class="dropdown" appDropdown>    
+                    <a href="#" class="dropdown-toggle" style="color: aliceblue;" role="button" >Manage Recipes 
+                        <span class="caret"></span>
+                    </a>  
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Save</a></li>
+                        <li><a href="#">Fetch</a></li>   
+
+                    </ul>
+                </li> 
+             </ul>
+        
     </div>
     <div class="row">
         <div class="col-md-12">
